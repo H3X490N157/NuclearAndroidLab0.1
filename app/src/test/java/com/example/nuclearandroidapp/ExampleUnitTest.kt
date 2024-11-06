@@ -1,4 +1,4 @@
-package com.example.nuclearandroidlab
+package com.example.nuclearandroidapp
 
 import org.junit.Test
 

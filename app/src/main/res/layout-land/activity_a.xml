@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#f44336"
+    tools:ignore="MissingDefaultResource">
+    <Button
+        android:id="@+id/button_open_activity_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenActivityB" />
+
+    <Button
+        android:id="@+id/button_open_fragment_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenFragmentB" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_bb"
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container_ba"
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
